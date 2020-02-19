@@ -1,0 +1,2079 @@
+ 
+@font-face {
+    font-family: 'Conv_TT-Chocolates-Bold';
+    src: url('../fonts/TT-Chocolates-Bold.eot');
+    src: local('â˜º'), url('../fonts/TT-Chocolates-Bold.woff') format('woff'), url('../fonts/TT-Chocolates-Bold.ttf') format('truetype'), url('../fonts/TT-Chocolates-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_Cera GR';
+    src: url('../fonts/Cera GR.eot');
+    src: local('â˜º'), url('../fonts/Cera GR.woff') format('woff'), url('../fonts/Cera GR.ttf') format('truetype'), url('../fonts/Cera GR.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_Cera GR Medium';
+    src: url('../fonts/Cera GR Medium.eot');
+    src: local('â˜º'), url('../fonts/Cera GR Medium.woff') format('woff'), url('../fonts/Cera GR Medium.ttf') format('truetype'), url('../fonts/Cera GR Medium.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_Cera GR Black';
+    src: url('../fonts/Cera GR Black.eot');
+    src: local('â˜º'), url('../fonts/Cera GR Black.woff') format('woff'), url('../fonts/Cera GR Black.ttf') format('truetype'), url('../fonts/Cera GR Black.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_Cera GR Regular Italic';
+    src: url('../fonts/Cera GR Regular Italic.eot');
+    src: local('â˜º'), url('../fonts/Cera GR Regular Italic.woff') format('woff'), url('../fonts/Cera GR Regular Italic.ttf') format('truetype'), url('../fonts/Cera GR Regular Italic.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_Cera GR Bold';
+    src: url('../fonts/Cera GR Bold.eot');
+    src: local('â˜º'), url('../fonts/Cera GR Bold.woff') format('woff'), url('../fonts/Cera GR Bold.ttf') format('truetype'), url('../fonts/Cera GR Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.navbar-toggle{
+    background-color: whitesmoke;
+    border: none;
+}
+
+.navbar-collapse{
+    text-align: center;
+}
+
+
+.left-product {
+   
+    position: relative;    
+    padding-bottom: 200px;
+
+}
+.faq .btn {
+    border-radius: 0px;
+        -webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.32);
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.32);
+}
+
+.faq .btn:hover {
+    background-color: #a1c6e4;
+    color: #fff;
+}
+.left-product-bg {
+    position: absolute; 
+    width: 100%;
+    height: 360px;
+    background-color: #425572;
+    z-index: -1;
+    bottom: 80px;
+    right: 10px;
+}
+.left-product img {
+    margin-bottom: -50px;
+}
+.carousel-indicators {
+    left: 8.33333333%;
+}
+.carousel-indicators li {
+    border: 1px solid #425572;
+    margin: 0px; 
+    width: 12px;
+    height: 12px;
+    margin-left: 5px;
+}
+.carousel-indicators .active {
+    background-color: transparent; 
+    border: 1px solid #fff;
+    width: 12px;
+    height: 12px;
+        margin-left: 5px;
+
+}
+.intro-section2 h2 {
+    margin-top: 140px;
+    font-size: 68px;
+    color: #a1c5e3;
+}
+
+.proizvodi .naslov .text-center {
+    font-size: 25.78px;
+    color: #fff;
+    margin-top: 0px;
+    padding-top: 57px;
+    font-family: 'Conv_Cera GR Black';
+    letter-spacing: 5px;
+}
+
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+.intro-section2 h2{
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: 'Conv_TT-Chocolates-Bold';
+   
+}
+
+.intro-section2 .text-2 p{
+    font-size: 17px;
+    line-height: 10px;
+    font-family: 'Conv_TT-Chocolates-Bold';
+}
+
+.intro-section2 .text-1 p{
+    text-align: left;
+    padding-left: 105px;
+    font-size: 24.78px;
+    font-family: 'Conv_TT-Chocolates-Bold';
+}
+
+
+.intro-section2 .btn{
+    margin-top: 92px;
+}
+
+
+.header-section{
+    height: 100%;
+}
+
+.navbar-default .navbar-brand{
+    padding-top: 34px;
+    
+}
+
+.navbar-nav {
+    padding-top: 34px;
+    padding-bottom: 37px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #516586;
+    font-size: 21px;
+    font-family: 'Conv_TT-Chocolates-Bold';
+    font-weight: bold;
+}
+
+.footer-section .navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 21px;
+font-family: 'Conv_Cera GR';}
+
+
+.intro-section1{
+    background: url(../slike/home_intro_bg.png) no-repeat center center;
+    padding-top: 260px;
+    min-height: 1000px;
+    margin-top: -100px;
+}
+
+.intro-section1 h1 {
+   font-family: 'Conv_TT-Chocolates-Bold';
+    font-size: 85px;
+    color: #516586;
+    line-height: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.intro-section1 p {
+    font-family: 'Conv_Cera GR Medium';
+    font-size: 28px;
+    color: #a1c6e4;
+    margin-bottom: 60px;
+    max-width: 525px;
+    margin-left: auto;
+}
+
+.intro-section1 .btn {
+    font-family: 'Conv_Cera GR Black';
+    font-size: 16px;
+    color: white;
+    background-color: #f48880;
+    letter-spacing: 2px;
+    border: none;
+    min-width: 180px;
+    min-height: 70px;
+    line-height: 50px;
+    margin-top: 20px;
+    border-radius: 0px;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.32);
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.32);
+}
+
+.intro-section1 .dugme-4 .btn{
+    font-size: 16px;
+}
+
+
+.intro-section1  a:hover{
+    background-color: #A1C6E4;
+    color: #fff;
+    transition: all .2s ease;
+}
+
+.navbar {
+    background-color: transparent;
+    border-color: transparent;
+    border-width: 0px;
+    margin-bottom: -20px;
+}
+
+
+
+.navbar-default .navbar-nav>li>a:hover {
+   color: #a1c6e4 !important;
+   text-decoration: none;
+}
+
+
+
+
+.footer-section{
+    background-color: #516586;
+    position: relative;
+    width: 100%;
+    float: left;
+    
+}
+
+.footer-section  .container {
+    min-height: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background: url(../slike/footer-logo.png) no-repeat left;
+}
+
+
+.footer-section h1 {
+    font-family: 'Conv_TT-Chocolates-Bold';
+    font-size: 18px;
+    color: #a1c6e4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 28px;
+}
+
+.footer-section h2 {
+    font-family: 'Conv_TT-Chocolates-Bold';
+    font-size: 16px;
+    color: #8b96aa;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    padding-left: 28px;
+}
+
+.footer-section p, .footer-section a {
+font-family: 'Conv_Cera GR';    font-size: 15px;
+    color: white;
+    padding-left: 28px;
+    padding-bottom: 45px;
+}
+.no-pad {
+    padding: 0px;
+}
+
+.signup-section {
+    position: relative;
+    width: 100%;
+    float: left;
+    clear: left;
+    padding-bottom: 40px;
+}
+
+
+.signup-section .container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.signup-section h4 {
+    font-family: 'Conv_TT-Chocolates-Bold';
+    font-size: 53.32px;
+    color: #a1c6e4;
+    line-height: 1;
+    margin-top: 85px;
+    margin-bottom: 26px;
+}
+
+.signup-section form {
+    display: flex;
+    margin-bottom: 106px;
+}
+
+.signup-section input {
+    width: 100%;
+    height: 60px;
+    border-radius: 0px;
+border: 1px solid #a1c6e4;
+margin-bottom: 108px;
+
+}
+
+.signup-section button {
+    font-family: 'Conv_Cera GR Black';
+    font-size: 16px;
+    color: #516586;
+    background-color: white;
+    width: 156px;
+    margin-left: -1px;
+    height: 50px;
+    border-radius: 0px;
+border: 1px solid #a1c6e4;
+}
+
+.signup-section .submit-button button{
+    box-shadow: none;
+}
+
+.signup-section button:hover{
+    background-color: #A1C6E4;
+    color: #fff;
+    transition: all .2s ease;
+}
+
+
+
+.navbar-brand .navbar-tekst {
+margin-left: 45px;
+margin-top: 32px;
+}
+.navbar-brand img {
+display: inline-block;
+}
+
+
+
+.intro-section2 {
+    background-color: #4d6180;
+    color: white;
+    font-weight: bold;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+}
+
+.wrapper1 {
+    padding-left: 111px;
+    padding-right: 319px;
+}
+
+.wrapper2 {
+    padding-left: 300px;;
+    padding-right: 0px;
+}
+
+
+.c-header-section img{
+    padding-bottom: 28px;
+    padding-top: 16px;
+}
+
+
+
+
+.section-2{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 556px;
+    background: url(../slike/categories-intro-bg.jpg) no-repeat center center;
+}
+.left-2 h1{
+    color: #516586;
+    font-weight: bold;
+    font-size: 60px;
+    padding-top: 110px;
+    padding-right: 226px;
+    font-family: 'Conv_TT-Chocolates-Bold';
+}
+
+.left-2 p{
+    color: #A1C6E4;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Conv_Cera GR Medium';
+}
+
+.section-2 .btn{
+    margin-top: 31px;
+    
+}
+
+
+.section-4 .dugme-1 .btn {
+    font-size: 16px;
+}
+
+.section-4 .btn:hover{
+    background-color: #A1C6E4;
+    color: #fff;
+    transition: all .2s ease;
+}
+
+.section-3 .dugme-2 .btn{
+    font-size: 16px;
+}
+
+.section-3 .btn:hover{
+    background-color: #A1C6E4;
+    color: #fff;
+    transition: all .2s ease;
+}
+
+.section-2 .dugme-3 .btn {
+    font-size: 16px;
+     font-family: 'Conv_Cera GR Black';
+}
+
+.section-2 .btn:hover{
+    background-color: #A1C6E4;
+    color: #fff;
+    transition: all .2s ease;
+}
+.btn{
+        font-family: 'Conv_Cera GR Black';
+    font-size: 18px;
+    color: white;
+    background-color: #f48880;
+    letter-spacing: 2px;
+    border: none;
+    min-width: 180px;
+    min-height: 60px;
+    line-height: 50px;
+    
+    border-radius: 0px;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.32);
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.32);
+}
+        
+
+
+
+.section-3{
+    background-color: #f3f8fc;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 100px;
+}
+
+.section-3 h1{
+    color:#4D6180;
+    font-weight: bold;
+    font-size: 25.78px;
+    letter-spacing: 5px;
+    font-family: 'Conv_Cera GR Black';
+    padding-top: 59px;
+}
+
+.section-3 img{
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.left-3-1 img{
+    padding-top: 120px;
+    padding-right: 110px;
+    float: right;
+}
+
+.left-3-1 h1{
+    font-weight: bold;
+    padding-top: 342px;
+    letter-spacing: 3px;
+    font-size: 60px;
+    font-family: 'Conv_TT-Chocolates-Bold';
+}
+
+.left-3-1 p{
+    font-family: 'Conv_Cera GR';
+    font-size: 16px;
+    color: #425572;
+    margin-top: 36px;
+    margin-bottom: 32px;
+    max-width: 382px;
+    line-height: 1.8;
+    font-weight: bold;
+}
+
+
+.right-3-1 img{
+   padding-top: 231px;
+   padding-left: 221px;
+   padding-right: 100px;
+   float: right;
+}
+
+.right-3-1 h1{
+    font-weight: bold;
+    margin-top: 0px;
+   padding-top: 450px;
+    letter-spacing: 3px;
+    font-size: 60px;
+    font-family: 'Conv_TT-Chocolates-Bold';
+}
+
+.right-3-1 p{
+    font-family: 'Conv_Cera GR';
+    font-size: 16px;
+    color: #425572;
+    margin-top: 36px;
+    margin-bottom: 32px;
+    max-width: 382px;
+    line-height: 1.8;
+    font-weight: bold;
+}
+
+.left-3-2 img{
+    padding-top: 90px;
+   padding-left: 201px;
+   padding-right: 110px;
+   float: right;
+}
+
+.left-3-2 h1{
+    font-weight: bold;
+    padding-top: 342px;
+    letter-spacing: 3px;
+    font-size: 60px;
+    font-family: 'Conv_TT-Chocolates-Bold';
+}
+
+.left-3-2 p{
+  font-family: 'Conv_Cera GR';
+    font-size: 16px;
+    color: #425572;
+    margin-top: 36px;
+    margin-bottom: 32px;
+    max-width: 382px;
+    line-height: 1.8;
+    font-weight: bold;
+}
+
+
+.right-3-2 img{
+   padding-top: 110px;
+   padding-left: 211px;
+   padding-right: 100px;
+   float: right;
+}
+
+.right-3-2 h1{
+    font-weight: bold;
+   padding-top: 342px;
+    letter-spacing: 3px;
+    font-size: 60px;
+   font-family: 'Conv_TT-Chocolates-Bold';
+}
+
+.right-3-2 p{
+    font-family: 'Conv_Cera GR';
+    font-size: 16px;
+    color: #425572;
+    margin-top: 36px;
+    margin-bottom: 32px;
+    max-width: 382px;
+    line-height: 1.8;
+    font-weight: bold;
+}
+
+
+
+
+.section3 h1{
+    font-family: 'Conv_Cera GR Black';
+    font-size: 26px;
+    color: #4d6180;
+}
+
+.section-4{
+    padding-bottom: 50px;
+    margin: 20px;
+        width: calc(100% - 40px);
+}
+
+
+
+.section-4 h1{
+    font-family: 'Conv_Cera GR Black';
+    padding-top: 73px;
+    padding-bottom: 30px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 26px;
+}
+
+.section-4 img{
+    margin-top: 0px;
+    padding-bottom: 33px;
+}
+
+.section-4 p{
+        font-family: 'Conv_Cera GR';
+            font-size:18px;
+    padding-top: 0px;
+    color: #fff;
+    letter-spacing: 1px;
+    padding-bottom: 40px;
+    line-height: 30px;
+}
+
+.section-4 .btn{
+    margin-bottom: 30px;
+}
+
+
+.section-4 .left  img{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.section-4 .middle  img{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.section-4 .right  img{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+.section-4 .left h1{
+    padding-top: 0px;
+    font-weight: bold;
+    color: #a1c6e4;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: -11px;
+    font-family: 'Conv_TT-Chocolates-Bold';
+}
+
+.section-4 .left h2{
+    padding-top: 0px;
+    line-height: 1px;
+    font-weight: bold;
+    color: #a1c6e4;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    font-family: 'Conv_TT-Chocolates-Bold';
+}
+
+.section-4 .left p{
+    font-family: 'Conv_Cera GR';
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 18px;
+    
+}
+
+
+
+
+
+
+.section-4 .middle h1{
+   padding-top: 0px;
+    font-weight: bold;
+    color: #a1c6e4;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: -11px;
+    font-family: 'Conv_TT-Chocolates-Bold';
+}
+
+.section-4 .middle h2{
+    padding-top: 0px;
+    line-height: 1px;
+    font-weight: bold;
+    color: #a1c6e4;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    font-family: 'Conv_TT-Chocolates-Bold';
+
+}
+
+.section-4 .middle p{
+    
+    font-family: 'Conv_Cera GR';
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 18px;
+}
+
+
+
+
+
+
+.section-4 .right h1{
+    padding-top: 0px;
+    font-weight: bold;
+    color: #a1c6e4;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: -11px;
+   font-family: 'Conv_TT-Chocolates-Bold';
+}
+
+.section-4 .right h2{
+    padding-top: 0px;
+    line-height: 1px;
+    font-weight: bold;
+    color: #a1c6e4;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    font-family: 'Conv_TT-Chocolates-Bold';
+}
+
+.section-4 .right p{
+    
+    font-family: 'Conv_Cera GR';
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 18px;
+}
+
+.section-5{
+    margin: 20px;
+    min-height: 350px;
+}
+
+.section-5 h1{
+    font-family: 'Conv_TT-Chocolates-Bold';
+    font-size: 50px;
+    color: #f48880;
+    text-align: center;
+    line-height: 1;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    padding-top: 76px;
+}
+
+
+.section-5 a{
+    font-family: 'Conv_Cera GR Black';
+    font-size: 16.06px;
+    font-weight: bold;
+    color: white;
+    background-color: #425572;
+    height: 60px;
+    margin-bottom: 0px;
+    box-shadow: none;
+}
+
+.section-5 a:hover{
+    background-color: #A1C6E4;
+    color: #fff;
+    transition: all .2s ease;
+}
+
+.confidence-section .left h3 {
+    font-family: 'Conv_TT-Chocolates-Bold';
+    font-size: 76.52px;
+    color: #4d6180;
+    line-height: 1;
+    margin-top: 256px;
+    margin-bottom: 32px;
+}
+
+.confidence-section .left p {
+    font-family: "Conv_Cera GR";
+    font-size: 18px;
+    color: grey;
+    margin-top: 42px;
+    margin-bottom: 0px;
+    padding-left: 100px;
+}
+
+
+.confidence-section .left a {
+    font-family: 'Conv_Cera GR Black';
+    font-size: 18px;
+    color:#4D6180;
+    background-color: whitesmoke;
+    width: 156px;
+    height: 50px;
+    padding-top: 15px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+        padding: 0px;
+}
+
+.confidence-section img{
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.confidence-section h4{
+    padding-top: 140px;
+    padding-bottom: 10px;
+    font-size: 30.46px;
+    color: #516586;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Conv_TT-Chocolates-Bold';
+}
+.confidence-section img {
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    display: block;
+}
+.confidence-section a {
+    font-family: 'Conv_Cera GR Black';
+    font-size: 16px;
+    color: #4D6180;
+    background-color: white;
+    width: 156px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 0px;
+    border:none;
+        -webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.32);
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.32);
+}
+
+.confidence-section a:hover{
+    background-color: #A1C6E4;
+    color: #fff;
+    transition: all .2s ease;
+}
+
+
+
+.faq{
+    padding-top: 15px;
+    background-color: whitesmoke;
+    margin: 20px;
+    background: url(../slike/home-faq-bg.jpg) no-repeat center center;
+}
+
+.faq h4{
+   font-family: 'Conv_Cera GR Black';
+    font-size: 25.78px;
+    color: #516586;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 1;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 153px;
+    margin-bottom: 24px;
+}
+
+.faq img{
+    margin-bottom: 32px;
+    align-content: center;
+}
+
+
+.faq a {
+    font-family: 'Conv_Cera GR Black';
+    font-size: 16px;
+    color: #516586;
+    background-color: white;
+    border: none;
+    width: 156px;
+    height: 50px;
+    margin-left: 34px;
+    margin-right: 34px;
+    margin-bottom: 108px;
+    
+}
+
+.faq .text-left, .faq .text-right {
+    text-align: center !important;
+}
+
+
+.proizvodi .naslov .text-center {
+   font-size: 25.78px;
+}
+
+.intro-section2 p{
+    font-size: 24.78px;
+}
+
+.intro-section2 h2{
+    font-size: 68px;
+}
+
+.intro-section2 h3{
+    font-size: 17px;
+}
+
+.intro-section2 .btn{
+    font-size: 16px;
+}
+
+.intro-section2 .btn:hover{
+    background-color: #A1C6E4;
+    color: #fff;
+    transition: all .2s ease;
+}
+
+.footer-section .navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 21px;
+    font-family: 'Conv_TT-Chocolates-Bold';
+}
+
+
+
+/* FAQ */
+
+.faq-section1{
+    min-height: 560px;
+    background: url(../slike/faq-section1-bg.jpg) no-repeat center top;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.faq-section1 h1{
+    padding-top: 178px;
+    margin-top: 0px;
+    font-size: 60px;
+    font-family: 'Conv_TT-Chocolates-Bold';
+    color: #516586;
+    line-height: 1;
+}
+
+
+.faq-section1 p{
+    font-size: 18px;
+    font-family: 'Conv_Cera GR Medium';
+    color: #a1c6e4;
+    padding-top: 20px;
+    padding-bottom: 208px;
+}
+
+
+.faq-questions{
+    background: url(../slike/faq-questions-bg.jpg) no-repeat center top;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.faq-questions .faq-nav .nav{
+    padding-top: 63px;
+}
+
+
+.faq-questions .nav-pills>li>a{
+    font-family: 'Conv_Cera GR Black';
+    font-weight: bold;
+    font-size: 16px;
+    color: #a1c6e4;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+.faq-questions .nav-pills li a:hover{
+    color: #45608d;
+    border: none;
+    background-color: transparent;
+    transition: all .2s ease;
+}
+
+.faq-questions .nav-pills li {
+    padding-right: 17px;
+    padding-bottom: 85px;
+}
+
+
+.faq-questions .k1{
+    padding-bottom: 50px;
+    
+}
+
+.faq-questions h2{
+    font-size: 24px;
+    font-family: 'Conv_TT-Chocolates-Bold';
+    color: #425572;
+   
+}
+
+
+.faq-questions .k1 img{
+    padding-left: 49px;
+}
+
+.faq-questions p{
+    font-family: 'Conv_Cera GR';
+    font-size: 16px;
+    color: #425572;
+    
+}
+
+.faq-questions .k1 p:before {
+    content: 'A:';
+    font-family: 'Conv_Cera GR';
+    font-size: 24px;
+    color: #a1c6e4;
+    padding-right: 20px;
+    
+}
+
+.faq-questions .k1 h2:before {
+    content: 'Q:';
+    font-family: 'Conv_Cera GR';
+    font-size: 24px;
+    color: #a1c6e4;
+    padding-right: 20px;
+    
+}
+
+
+
+
+.section-5 {
+    min-height: 240px;
+    background: url(../slike/categories-shop-bg.jpg);
+}
+
+.section-5 .questions1 h1{
+    font-size: 32px;
+    font-family: 'Conv_TT-Chocolates-Bold';
+    color: #516586;
+}
+
+.section-5 .questions1 a{
+    font-size: 16.06px;
+    font-family: 'Conv_Cera GR Black';
+    color: #516586;
+    background-color: #fff;
+        margin-bottom: 57px;
+    border-radius: 0px;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.32);
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.32);
+}
+
+.section-5 a:hover{
+    background-color: #A1C6E4;
+    color: #fff;
+    transition: all .2s ease;
+}
+
+/*ABOUT*/
+
+.about-1 {
+    background: url(../slike/about-intro-bg.jpg) no-repeat center top;
+    min-height: 1315px;
+    margin: 20px;
+    background-color: #deefff;
+}
+.about-1 h1{
+    padding-top: 120px;
+    color: #516586;
+    font-size: 60px;
+    font-family: 'Conv_TT-Chocolates-Bold';
+    line-height: .9;
+}
+
+.about-1 p{
+    color: #a1c6e4;
+    font-size: 18px;
+    font-family: 'Conv_Cera GR Medium';
+}
+
+.about-1 .btn{
+    margin-top: 37px;
+    font-family: 'Conv_Cera GR Black';
+    font-size: 16px;
+}
+
+.about-1 .btn:hover{
+    background-color: #A1C6E4;
+    color: #fff;
+    transition: all .2s ease;
+}
+
+.about-1 .about-11 h1{
+    padding-top: 257px;
+    padding-left: 97px;
+    font-size: 76.52px;
+    color: #4d6180;
+    font-family: 'Conv_TT-Chocolates-Bold';
+}
+
+.about-1 .about-11 h1 span {
+    font-family: 'Conv_TT-Chocolates-Bold';
+    font-size: 40px;
+    color: #4d6180;
+    
+}
+
+.about-1 .about-11 p{
+    font-family: 'Conv_Cera GR';
+    font-size: 16px;
+    color: #425572;
+    padding-top: 45px;
+    padding-left: 200px;
+    padding-right: 100px;
+}
+
+.about-1 .about-11 img{
+    margin-left: 100px;
+    margin-top: 43px;
+}
+
+.about-2{
+    background-color: #4d6180;
+    margin: 20px;
+}
+
+.about-2 .about h3{
+    color: #a1c6e4;
+    font-size: 60px;
+    font-family: 'Conv_TT-Chocolates-Bold';
+    padding-top: 101px;
+    margin-bottom: 0px;
+    
+    
+}
+
+.about-2 .about p{
+    font-size: 18px;
+    font-family: 'Conv_Cera GR';
+    color: #fff;
+    padding-bottom: 100px;
+    padding-top: 24px;
+    
+}
+
+.about-3{
+    background: url(../slike/about-3-bg.png) no-repeat center;
+    margin: 20px;
+    min-height: 625px;
+}
+
+.about-3 h4{
+    font-size: 25.78px;
+    color: #425572;
+    font-family: 'Conv_Cera GR Black';
+    padding-top: 66px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    
+}
+
+.about-3 .text-1 p{
+    color: #425572;
+    font-size: 21px;
+    font-family: 'Conv_Cera GR';
+}
+
+.about-3 .text-2 p{
+    color: #425572;
+    font-size: 16px;
+    font-family: 'Conv_Cera GR';
+    padding-bottom: 85px;
+    line-height: 2;
+}
+
+
+.about-3 .text-3 p{
+    color: #4d6180;
+    font-size: 32px;
+    padding-bottom: 155px;
+    font-family: 'Conv_TT-Chocolates-Bold';
+}
+
+.about-3 img{
+    margin-top: 24px;
+    margin-bottom: 65px;
+}
+
+
+
+.about-4 .section-5{
+    min-height: 300px;
+    margin: 20px;
+    
+}
+
+.about-4 .section-5 h5{
+    color: #f48880;
+    font-size:50px;
+    font-family: 'Conv_TT-Chocolates-Bold';
+    padding-top: 65px;
+    padding-bottom: 43px;
+}
+
+.about-4 .section-5 a{
+    color: #fff;
+    font-size: 16.06px; 
+    margin-bottom: 90px;
+}
+
+.about-4 a:hover{
+    background-color: #A1C6E4;
+    color: #fff;
+    transition: all .2s ease;
+}
+
+
+.about-5{
+    min-height: 505px;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+
+
+.about-5 h6{
+    font-size: 25.78px;
+    color: #425572;
+    font-family: 'Conv_Cera GR Black';
+    padding-top: 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    
+}
+
+.about-5 .blue-line img{
+    margin-bottom: 50px;
+}
+
+.about-5 .media-feed .feed{
+    min-width: 380px;
+    margin-bottom: 90px;
+    height: 220px;
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 16px 3px rgba(242,242,242,1);
+-moz-box-shadow: 0px 0px 16px 3px rgba(242,242,242,1);
+box-shadow: 0px 0px 16px 3px rgba(242,242,242,1);
+}
+
+.about-5 .media-feed .feed h6{
+   font-family: 'Arial Bold';
+   color: black;
+   font-size:  21px;
+   padding-top: 30px;
+       padding-left: 80px;
+       padding-right: 180px;
+       margin-bottom: 0px;
+       letter-spacing: 0px;
+       text-transform: none;
+       
+}
+
+.about-5 .media-feed .feed img{
+    margin-top: 35px;
+    margin-bottom: 0px;
+    float: left;
+    margin-left: 30px;
+}
+
+.about-5 .media-feed .feed a{
+    padding-left: 80px;
+}
+
+.about-5 .media-feed .feed .twitter-text p{
+    color: #6c6c6c;
+    font-family: 'Georgia Italic';
+    font-size: 15px;
+    padding-left: 28px;
+    padding-right: 53px;
+    padding-bottom: 45px;
+}
+
+
+
+
+/*CONTACT*/
+
+.contact-1 .faq-section1{
+    background: url(../slike/contact-1-bg.jpg) no-repeat center top;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 558px;
+}
+
+
+/*EMAIL*/
+
+.contact-2{
+    padding-top: 85px;
+    padding-left: 100px;
+    padding-right: 0px;
+}
+
+
+ #contact{
+    padding:10px 0 10px;
+  }
+
+  .contact-text{
+    margin:45px auto;
+  }
+
+  .mail-message-area{
+    width:100%;
+    padding:0 15px;
+  }
+
+  .mail-message{
+    width: 100%;
+    background:rgba(255,255,255, 0.8) !important;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+    margin:0 auto;
+    border-radius: 0;
+  }
+
+  
+
+  .visible-message{
+    height:auto;
+    opacity: 1;
+    margin:25px auto 0;
+  }
+
+/* Input Styles */
+
+  .form{
+    width: 580px;
+    height: 50px;
+    padding: 15px;
+    font-family: 'Conv_Cera GR Regular Italic';
+    background:#f8f8f8;
+    border:solid 1px #a1c6e4;
+    border-radius:0px;
+    margin-bottom:25px;
+    color:#727272 !important;
+    font-size:13px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    
+    
+  }
+
+  .form:hover{
+    border:1px solid #8BC3A3;
+  }
+
+  .form:focus{
+    color: white;
+    outline: none;
+    border:1px solid #8BC3A3;
+  }
+
+  .textarea{
+    height: 230px;
+    max-height: 230px;
+    max-width: 580px;
+  }
+  
+/* Generic Button Styles */
+
+  .button{
+    padding:8px 12px;
+    background:#0A5175;
+    display: block;
+    width:120px;
+    margin:10px 0 0px 0;
+    border-radius:3px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align:center;
+    font-size:0.8em;
+    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  }
+
+  .button:hover{
+    background:#8BC3A3;
+    color:white;
+  }
+
+/* Send Button Styles */
+
+  .form-btn{
+    width:180px;
+    display: block;
+    height: auto;
+    padding:15px;
+    font-size: 16px;
+    font-family: 'Conv_Cera GR Black';
+    color:#516586;
+    background:#fff;
+    border:solid 1px #a1c6e4;
+    border-radius:0px;
+    outline: none;
+    margin-top: 34px;
+    margin-bottom: 93px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  }
+
+  .form-btn:hover{
+    background:#A8CAE6;
+    color: white;
+    border:none;
+  }
+
+  .form-btn:active{
+    opacity: 0.9;
+  }
+
+.contact-2 .right h6{
+    padding-top: 0px;
+    font-size: 20px;
+    color: #a1c6e4;
+    font-family: 'Conv_TT-Chocolates-Bold';
+    margin: 0xp
+}
+
+
+.contact-2 .right p{
+    color: #516586;
+    font-size: 20px;
+    font-family: 'Conv_Cera GR Bold';
+    padding-bottom: 50px;
+    margin: 0px;
+    
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:right;
+    }
+    
+    .intro-sectio1 h1{
+        font-size: 30px !important;
+        text-align: center;
+    }
+    .intro-section1{
+        background: none;
+    }
+    
+    
+}
+
+@media screen and (max-width: 880px)
+{
+.home-intro-btn {
+    float: none !important;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+
+@media screen  and (max-width: 768px) { 
+   .no-pad {
+    padding: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+   } 
+   .signup-section{
+       margin: 0px;
+   }
+   
+   .signup-section button {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: -1px;
+   }
+   .intro-section2 h2{
+       font-size: 20px !important;
+    letter-spacing: 1px;
+}
+
+.signup-section h4 {
+    font-family: 'Conv_TT-Chocolates-Bold';
+    font-size: 20px;
+    color: #a1c6e4;
+    line-height: 1;
+    text-align: center;
+}
+
+.signup-section input{
+    margin: 0px;
+}
+
+
+
+.faq{
+   
+    margin: 0px;
+}
+.faq .btn{
+    margin-bottom: 30px;
+}
+
+
+.faq h4{
+    font-size: 20px !important;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+
+.confidence-section{
+    margin: 0px;
+}
+
+.confidence-section h4{
+    font-size: 20px !important;
+    font-family: 'Conv_TT-Chocolates-Bold';
+    color: #516586;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 32px;
+    
+}
+.confidence-section a {
+    font-size: 14px;
+    height: 40px;
+    min-height: 50px;
+    line-height: 40px;
+
+}
+.confidence-section .left p{
+    font-size: 16px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.confidence-section .left h3{
+    font-size: 30px !important;
+    text-align: center;
+}
+
+.confidence-section .right img{
+    text-align: center;
+}
+
+}
+   
+   
+   .form, .textarea {
+    width: 100%;
+}
+   
+   
+
+
+.navbar-default .navbar-collapse{
+    border: none;
+}
+
+
+
+
+@media screen and (max-width: 992px)
+
+{    
+    
+    
+    .intro-section2 h2 {
+    text-align: center;
+}
+
+.intro-section2 p {
+    text-align: center;
+    padding-bottom: 100px;
+    
+}
+
+    
+    
+    .intro-section2 .carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+     padding-left: 0; 
+     margin-left: -30%; 
+    text-align: center;
+    list-style: none;
+}
+    
+    .footer-section .container  {
+        background: none;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    
+    .footer-section .navbar {
+        display: none;
+    }
+    
+.footer-section h1 {
+    text-align: center;
+}
+
+.footer-section h2{
+    text-align: center;
+}
+
+.footer-section p{
+    text-align: center;
+}
+
+.footer-section h1 {
+    font-family: 'Conv_TT-Chocolates-Bold';
+    font-size: 18px;
+    color: #a1c6e4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+}
+
+
+@media (max-width: 992px) {
+.navbar-default .navbar-brand {
+    padding-top: 5px;
+}
+.navbar-default .navbar-collapse {
+    border: none;
+    float: left;
+    width: 100%;
+    margin: 0px;
+}
+.navbar-default .navbar-toggle {
+    border-color: #ddd;
+    margin-top: 20px;
+}
+.navbar-nav {
+    width: 100%;
+}
+.navbar-nav>li {
+    float: left;
+    width: 100%;
+}
+.navbar-right {
+    float: none !important;
+    margin: 0px;
+}
+.navbar-toggle {
+    border-radius: 0px;
+    background-color: transparent !important;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #f48880;
+}
+.section-2, .faq-section1, .contact-1 .faq-section1 {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    background-image: none;
+    padding-top: 60px;
+    padding-bottom: 90px;
+    min-height: auto !important;
+}
+.section-4 {
+    background-color: #415472;
+    background-image: none !important;
+}
+.left-2 h1, .faq-section1 h1 {
+    font-size: 60px;
+    padding-top: 10px;
+    padding-right: 0;
+
+}
+.section-3 {
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+.section-3 .left-3-1 img,
+.section-3 .left-3-2 img,
+.section-3 .right-3-1 img,
+.section-3 .right-3-2 img {
+    width: 90%;
+    max-width: 279px;
+    float: none;
+    padding: 0px !important;
+    margin-bottom: 30px;
+}
+
+.section-3 h1 {
+    margin: 0px !important;
+    padding: 0px !important;
+
+}
+.section-3 p {
+    font-size: 14px !important;
+}
+.faq-questions {
+    background-color: #f3f8fc;
+}
+.faq-questions .faq-nav .nav {
+    padding-top: 23px;
+}
+.faq-questions .nav-pills li {
+    padding: 0px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.faq-questions .nav-pills>li>a {
+    width: 100%;
+    text-align: center;
+        font-size: 12px;
+}
+.faq-questions h2 {
+    font-size: 16px;
+
+}
+.faq-questions .k1 {
+    padding-bottom: 15px;
+}
+.faq-questions p {
+    font-size: 14px;
+}
+.faq-questions .k1 h2:before {
+    font-size: 16px;
+}
+.faq-questions .k1 p:before {
+
+    font-size: 14px;
+}
+.faq-questions .k1 img {
+    display: none;
+}
+.about-1 {
+    margin-top: 60px;
+}
+.about-1 .about-11 h1 {
+    padding-top: 240px;
+    padding-left: 40px;
+}
+.about-1 .about-11 h1 span {
+    font-size: 40px;
+}
+.about-1 .about-11 img {
+    margin-left: 40px;
+}
+.about-1 .about-11 p {
+    padding: 40px;
+}
+}
+
+@media (max-width: 768px) {
+.navbar-default .navbar-toggle {
+    margin-top: 10px;
+}
+.navbar-default .navbar-brand {
+    padding-top: 10px;
+}
+.navbar-brand img {
+    display: inline-block;
+    max-width: 70px;
+}   
+
+.navbar-default .navbar-nav>li>a {
+    color: #516586;
+    font-size: 16px;
+}
+.intro-section2 .carousel {
+    padding-bottom: 70px;
+}
+.left-product {
+    position: relative;
+    padding-bottom: 90px;
+}
+.intro-section2 h2 {
+    text-align: center;
+    font-size: 18px !important;
+}
+.intro-section2 h2 {
+    margin-top: 0px;
+    font-size: 68px;
+}
+.intro-section2 p {
+    text-align: center;
+    font-size: 17px !important;
+    padding-bottom: 0px;
+    padding-left: 0px !important;
+}
+.intro-section2 .text-1 p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 24.78px;
+    font-family: 'Conv_TT-Chocolates-Bold';
+}
+.intro-section2 .btn {
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    line-height: 40px;
+    max-width: 200px;
+    height: 50px;
+    min-height: auto;
+        margin-top: 25px;
+}
+
+.confidence-section .left h3 {
+    font-size: 36px;
+    margin-top: 50px;
+}
+.confidence-section h4 {
+    padding-top: 40px;
+}
+.navbar-brand   .navbar-tekst{
+  display: none;   
+}
+
+.signup-section h1{
+    font-size: 20px !important;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.no-pad{
+    width: 275px;
+}
+
+.faq h1{
+    font-size: 20px !important;
+}
+.faq .btn {
+    min-height: 50px;
+    line-height: 40px;
+    font-size: 14px;
+    }
+.intro-section2 .carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+     padding-left: 0; 
+     margin-left: -30%; 
+    text-align: center;
+    list-style: none;
+}
+
+.intro-section1 h1{
+    font-size: 30px !important;
+        font-weight: bold;
+        text-align: center;
+}
+
+.intro-section1 p{
+    text-align: center;
+    
+}
+
+
+
+.intro-section1 {
+    background: none;
+    margin: 0px;
+    min-height: auto;
+    padding-top: 110px;
+}
+
+.intro-section1 p{
+    font-size: 16px;
+}
+.intro-section2 h1{
+    font-size: 20px !important;
+    letter-spacing: 1px;
+}
+.intro-section1 .dugme-4 .btn {
+    font-size: 14px;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    line-height: 30px;
+    height: 50px;
+    min-height: auto;
+}
+.signup-section button {
+    font-family: 'Conv_Cera GR Black';
+    font-size: 14px;
+}
+
+.section-2, .faq-section1 {
+    padding-top: 30px;
+}
+.left-2 h1, .faq-section1 h1 {
+    font-size: 26px;
+}
+.left-2 p, .faq-section1 p {
+    font-size: 16px;
+    line-height: 20px;
+        padding-bottom: 0px;
+}
+.section-3 h1, .section-4 h1, .section-5 h1, .section-5 .questions1 h1, .about-4 .section-5 h5 {
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+.section-3 .col-xs-12 {
+    width: 100%;
+    text-align: center;
+}
+.section-3 .col-xs-12 h1 {
+    font-weight: bold;
+    padding-top: 342px;
+    letter-spacing: 3px;
+    font-size: 36px;
+    font-family: 'Conv_TT-Chocolates-Bold';
+}
+.section-3 .col-xs-12 p {
+    margin-top: 16px;
+    }
+.section-4 p {
+    font-size: 14px;
+    line-height: 22px;
+}
+.section-4 .left h1, .section-4 .middle h1, .section-4 .right h1 {
+    font-size: 30px;
+}
+.section-4 .left h2, .section-4 .middle h2, .section-4 .right h2  {
+    font-size: 22px;
+}
+.section-4 .left p, .section-4 .middle p, .section-4 .right p {
+    font-size: 16px;
+
+}
+
+.about-1 h1 {
+    padding-top: 120px;
+    font-size: 30px;
+}
+.about-1 p {
+    font-size: 14px;
+}
+.about-1 .about-11 h1 {
+    font-size: 36px;
+}
+.about-1 .about-11 h1 span {
+    font-size: 36px;
+}
+.about-2 {
+    background-color: #4d6180;
+    margin: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.about-2 .about h3 {
+    font-size: 40px;
+    padding-top: 40px;
+}
+.about-2 .about p {
+    font-size: 16px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.about-5 .media-feed .feed {
+    min-width: auto;
+    margin-bottom: 30px;
+}
+.contact-2 {
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.contact-2 .right p {
+    color: #516586;
+    font-size: 14px;
+    font-family: 'Conv_Cera GR Bold';
+    padding-bottom: 20px;
+    margin: 0px;
+}
+.form-btn {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 43px;
+}
+
+}
+
